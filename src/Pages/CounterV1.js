@@ -39,7 +39,7 @@ function CounterV1() {
       <form onSubmit={handleSubmit}>
         <label>Add a lot:</label>
         <input
-          className='m-2 p-1 border border-gray-500 bg-gray-50 '
+          className='m-2 p-1 border border-gray-500 bg-gray-50 rounded '
           type='number'
           value={addValue || ''}
           onChange={handleChange}

@@ -87,7 +87,7 @@ function CounterV2() {
         <input
           value={state.addValue || ''}
           type='number'
-          className='px-3 py-1.5 m-2 p-1 border border-gray-500 bg-gray-50'
+          className='m-2 p-1 border border-gray-500 bg-gray-50 rounded'
           onChange={handleChange}
         />
         <Button secondary>Add!</Button>
